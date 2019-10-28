@@ -1,4 +1,2 @@
-with open('DanePersonalne.txt','w') as file:
-    file.write('Oskar K\n')
-    file.write('UEK\n')
-    file.write('Infa Stosowana\n')
+with open('shoppinglist.txt','a') as file:
+    file.write(input("Dodaj produkt: ") +"\n")

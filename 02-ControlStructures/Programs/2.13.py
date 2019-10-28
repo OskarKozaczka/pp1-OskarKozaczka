@@ -3,9 +3,9 @@ y=input("2: ")
 x=int(x)
 y=int(y)
 if x<0:
-      print("lewa")
+      print("lewa", end=" ")
 else:
-    print("prawa")   
+    print("prawa", end =" ")   
 if y<0:
     print("dolna")
 else:
