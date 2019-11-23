@@ -4,4 +4,4 @@ def miesiac(x):
 
     return nazwy_miesiecy[x-1]
 
-print(miesiac(10))
+print(miesiac(4))

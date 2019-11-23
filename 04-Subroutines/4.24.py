@@ -1,7 +1,8 @@
 import random
 
 def los():
-    return random.randrange(0,50)
+    #print(random.randrange(1,51))
+    return random.randrange(1,51)
 
 
 

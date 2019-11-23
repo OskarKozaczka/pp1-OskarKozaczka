@@ -15,11 +15,11 @@ def jestImie(imie,imiona):
         
         print('Rezultat: imię zawarte jest w wykazie imion')
     else:
-        print('Rezultat: imieni nie jest zawarte w wykazie imion')
+        print('Rezultat: imie nie jest zawarte w wykazie imion')
     
 
     
 
 imiona=['Janek','Ania','Wojtek','Zosia']
 
-jestImie('Wojtek',imiona)
+jestImie('Bartek',imiona)
