@@ -11,4 +11,4 @@ for ix in range(4):
     for iy in range(4):
         shapes.drawSquare(ix,iy,1)
         
-turtle.done()
+#turtle.done()
