@@ -4,9 +4,9 @@ import math
 #czytajWspolczynniki() => float[a,b,c]
 
 def czytajWspolczynniki():
-    a=float(input('1: '))
-    b=float(input('2: '))
-    c=float(input('3: '))
+    a=float(input('a: '))
+    b=float(input('b: '))
+    c=float(input('c: '))
     wsp=[a,b,c]
     
     return wsp
@@ -30,7 +30,8 @@ def obliczPierwiastki(wsp):
     if obliczDelte(wsp)<0:
         return []
     if obliczDelte(wsp)==0:
-        pier[0]=-wsp[1]/wsp[0]*2
+        #pier[0]=-wsp[1]/wsp[0]*2
+        pier.append(-wsp[1]/wsp[0]*2)
         return pier
     
     if obliczDelte(wsp)>0:
