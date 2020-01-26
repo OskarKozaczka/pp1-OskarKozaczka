@@ -8,7 +8,11 @@ class Stack:
     def pop(self):
         if self.is_empty():
             return None
-        return self.stack.pop()
+        x=self.stack[0]
+        #self.stack.remove(x)
+        del self.stack[0]
+        return x
+        
 
     def push(self, item):
         self.stack.append(item)
@@ -22,7 +26,7 @@ Stos=Stack()
 
 Stos.push(1)
 print(Stos)
-Stos.push(2)
+Stos.push(1)
 print(Stos)
 Stos.push(3)
 print(Stos)
